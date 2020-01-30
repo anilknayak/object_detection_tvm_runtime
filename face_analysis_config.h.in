@@ -1,0 +1,4 @@
+// the configured options and settings for FaceAnalysis
+#define face_analysis_VERSION_MAJOR @face_analysis_VERSION_MAJOR@
+#define face_analysis_VERSION_MINOR @face_analysis_VERSION_MINOR@
+#cmakedefine USE_FACEDETECTION
