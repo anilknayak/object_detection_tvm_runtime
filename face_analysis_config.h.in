@@ -2,3 +2,10 @@
 #define face_analysis_VERSION_MAJOR @face_analysis_VERSION_MAJOR@
 #define face_analysis_VERSION_MINOR @face_analysis_VERSION_MINOR@
 #cmakedefine USE_FACEDETECTION
+#cmakedefine USE_FACEAGEGENDER
+#cmakedefine USE_FACEDIZZINESS
+#cmakedefine USE_FACELANDMARK
+#cmakedefine USE_FACERACE
+#cmakedefine USE_FACERECOGNITION
+#cmakedefine USE_FACESEGMENTATION
+#cmakedefine USE_FACEEMOTION

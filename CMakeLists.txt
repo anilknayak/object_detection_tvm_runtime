@@ -28,6 +28,13 @@ list(APPEND EXTRA_LIBS ${CMAKE_DL_LIBS})
 # Enable all the libraries
 option(BUILD_SHARED_LIBS "Build using shared libraries" ON)
 option(USE_FACEDETECTION "Use face detection libraries" OFF)
+option(USE_FACEAGEGENDER "Use face age and gender libraries" OFF)
+option(USE_FACEDIZZINESS "Use face dizziness libraries" OFF)
+option(USE_FACELANDMARK "Use face landmark libraries" OFF)
+option(USE_FACERACE "Use face race libraries" OFF)
+option(USE_FACERECOGNITION "Use face recognition libraries" OFF)
+option(USE_FACESEGMENTATION "Use face segmentation libraries" OFF)
+option(USE_FACEEMOTION "Use face emotion libraries" OFF)
 
 
 # configure a header file to pass some of the CMake settings
